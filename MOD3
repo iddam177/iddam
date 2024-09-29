@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profil Pribadi -  MOD3_1303213135</title>
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+    <div class="container">
+        <h1>Profil Pribadi</h1>
+        <div class="profile-info">
+        <h2>Foto Profil</h2>
+            <img src="foto-profil.jpg" alt="Foto Profil"></img>
+            <div class="video-container">
+        <h2>Video Perkenalan</h2>
+                <iframe src="video.mp4" type="video/mp4"></iframe>
+            </div>
+
+        <h2>Tentang Saya</h2>
+            <td>Halo! Saya adalah seseorang lelaki.</td>
+        </div>
+
+        <h2>Keterampilan</h2>
+            <td>HTML, CSS</td>
+            <td>JavaScript</td>
+            <td>Python</td>
+            
+
+        <h2>Hubungi Saya</h2>
+        <form>
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Pesan:</label><br>
+            <textarea id="message" name="message" rows="5" cols="30"></textarea><br><br>
+            <input type="submit" value="Kirim Pesan">
+        </form>
+
+        <h2>Media Sosial</h2>
+        <a href="https://www.linkedin.com/">LinkedIn</a>
+        <a href="https://github.com/iddam177">GitHub</a>
+        <a href="https://twitter.com/">Twitter</a>
+    </div>
+</body>
+</html>
